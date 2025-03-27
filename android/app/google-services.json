@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "871483029234",
+    "project_id": "chocolate-shop-788a0",
+    "storage_bucket": "chocolate-shop-788a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871483029234:android:233af04cbfb74145bb826b",
+        "android_client_info": {
+          "package_name": "com.example.chocolate_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbms5i4wBvJu3dj-XFkAW2a90BDPrJXiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
