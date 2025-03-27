@@ -19,7 +19,7 @@ A Flutter-based mobile application for a chocolate store with user and admin fea
 ## Screenshots
 | Home Screen | Cart Screen | Settings Screen | Admin Panel |
 |-------------|-------------|-----------------|-------------|
-![Home](https://github.com/user-attachments/assets/321a3305-3721-4f30-90d4-0047350dfd67) ![Cart](https://github.com/user-attachments/assets/25579edb-5dae-4320-ac69-fd375e052a04) ![Settings](https://github.com/user-attachments/assets/af495376-5b52-4b42-a2bb-59baa6e29b37) ![Admin](https://github.com/user-attachments/assets/7f5f5d1e-a023-4fed-92f4-fbab0861e4df)
+|![Home](https://github.com/user-attachments/assets/321a3305-3721-4f30-90d4-0047350dfd67)| ![Cart](https://github.com/user-attachments/assets/25579edb-5dae-4320-ac69-fd375e052a04) |![Settings](https://github.com/user-attachments/assets/af495376-5b52-4b42-a2bb-59baa6e29b37)| ![Admin](https://github.com/user-attachments/assets/7f5f5d1e-a023-4fed-92f4-fbab0861e4df)|
 
 
 
