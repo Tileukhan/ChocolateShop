@@ -1,16 +1,26 @@
 class Product {
-  final String name; // Название шоколада
-  final double price; // Цена
-  final String imageUrl; // Ссылка на изображение
+  final String id;
+  final String name;
+  final double price;
+  final String imageUrl;
 
-  Product({required this.name, required this.price, required this.imageUrl});
+  Product({
+    required this.id,
+    required this.name,
+    required this.price,
+    required this.imageUrl,
+  });
 
-  // Метод для преобразования данных из Firestore в объект Product
-  factory Product.fromFirestore(Map<String, dynamic> data) {
+  Map<String, dynamic> toMap() {
+    return {'name': name, 'price': price, 'ImageUrl': imageUrl};
+  }
+
+  factory Product.fromMap(Map<String, dynamic> map, String id) {
     return Product(
-      name: data['name'] ?? '',
-      price: (data['price'] as num).toDouble() ?? 0.0,
-      imageUrl: data['ImageUrl'] ?? '',
+      id: id,
+      name: map['name'] ?? '',
+      price: (map['price'] as num).toDouble(),
+      imageUrl: map['ImageUrl'] ?? '',
     );
   }
 }
