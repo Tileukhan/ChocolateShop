@@ -34,3 +34,32 @@ A Flutter-based mobile application for a chocolate store with user and admin fea
    ```bash
    git clone https://github.com/ВАШ_ЮЗЕРНЕЙМ/ChocolateShop.git
    cd ChocolateShop
+2.**Install dependencies**:
+  ```bash
+  flutter pub get
+3.**Install dependencies:**
+  ```bash
+Configure Firebase:
+Create a Firebase project and add your google-services.json (Android) and GoogleService-Info.plist (iOS).
+Enable Authentication (Email/Password) and Firestore.
+Set up Cloud Messaging for notifications.
+Run the app:
+bash
+
+Свернуть
+
+Перенос
+
+Копировать
+flutter run
+Design
+Colors: Dark brown (#4A2C2A) for primary, orange (#F4A261) for accents, beige (#F5F5F5) background.
+Fonts: Playfair Display (headings), Roboto (body).
+UI: Reusable widgets, modern cards with shadows, and smooth animations.
+Future Improvements
+Full CRUD for admin panel (edit products).
+Integration with real payment systems (e.g., Kaspi Pay).
+Order history for users.
+Firebase Storage for image uploads.
+License
+MIT License - feel free to use and modify!
